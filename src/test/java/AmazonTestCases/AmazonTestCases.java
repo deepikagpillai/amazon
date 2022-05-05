@@ -26,7 +26,7 @@ public void Tc001()
 	driver already loaded the invoked browser-chrome*/
 	//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); 
 	WebElement searchbox=driver.findElement(By.id("twotabsearchtextbox"));// search box is a variable,webelement is a datatype
-	searchbox.sendKeys("iphone");/* to search iphone */
+	searchbox.sendKeys("samsung");/* to search iphone */
 	driver.findElement(By.id("nav-search-submit-button")).click();
 	// driver.getCurrentUrl();
 	/*driver.findElement(By.id("twotabsearchtextbox")).clear();
